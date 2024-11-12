@@ -7,7 +7,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Robot-Bold&size=30&color=&center=true&vCenter=true&width=900&height=110&lines=Software+Developer;Frontend+Engineer;Backend+Engineer;AI+Assistant+App+Creator;Technical+Documentation+Specialist;JavaScript+Educator)](https://git.io/typing-svg)
 </div>
 <p align="center">
- <img height="280rem" alt="GIF" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif" />
+ <img height="280rem" alt="GIF" src="https://media0.giphy.com/media/L7AIyTuXaszW3shL0F/giphy.gif?cid=6c09b952ztobwzrhkkedcv1b5zr81ma7hvuul5izrqgyhj5c&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" />
 </p>
 
 ## <img src="https://c.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif" width="25">  <b>About Me</b>
@@ -21,13 +21,13 @@ I’m Ifaol Mekonnen, a software developer with a passion for solving complex pr
 
 - 🌱 Actively exploring Next.js, cloud integrations, and user-friendly interfaces in frontend development.
 
-- 💬 Ask me about JavaScript, TypeORM, Redux, or anything frontend-related!
+- 💬 Ask me about JavaScript, TypeORM, Redux, or anything fullstack dev-related!
 
 <br>
 
 ## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width='30'> <b>Connect with Me</b>
 
-<p align="center">
+<p align="left">
  <a href="[Your Portfolio Link]">
  <img border="0" alt="Ifaol's Portfolio" src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/40/000000/external-resume-business-recruitment-itim2101-lineal-color-itim2101.png">
  </a>
@@ -49,7 +49,7 @@ I’m Ifaol Mekonnen, a software developer with a passion for solving complex pr
  </a>
 
  <a href="https://stackoverflow.com/users/[Your StackOverflow ID]">
- <img border="0" alt="Ifaol's StackOverflow" src="https://img.icons8.com/ios-glyphs/40/000000/stackoverflow.png"/>
+ <img border="0" alt="Ifaol's StackOverflow" src="https://img.icons8.com/?size=50&id=13955&format=png&color=000000" />
  </a>
 </p>
 
@@ -62,6 +62,7 @@ I’m Ifaol Mekonnen, a software developer with a passion for solving complex pr
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?logo=javascript&logoColor=black">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-%23007ACC.svg?logo=typescript&logoColor=white">
   <img alt="Python" src="https://img.shields.io/badge/Python-%2314354C.svg?logo=python&logoColor=white">
+    <img alt="C" src="https://img.shields.io/badge/C-%2314354C.svg?logo=python&logoColor=white">
 </p>
 
 ### 📋 Frontend Development
@@ -96,6 +97,14 @@ I’m Ifaol Mekonnen, a software developer with a passion for solving complex pr
   <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23181717.svg?logo=github&logoColor=white">
 </p>
 
-<br>
+<br> 
 
-Looking forward to sharing my projects with you and creating solutions that make a difference. Let’s connect and explore how we can work together!
+## <img src="https://media1.giphy.com/media/JrXas5ecb4FkwbFpIE/giphy.gif?cid=6c09b952r74c979vfswx4dhc484ak70hb0i56v1j5cwpmq1v&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g" width="25"> <b>Github Stats</b>
+
+<p align="center"><img width="460" height="150" src="https://github-readme-stats.vercel.app/api/top-langs?username=Ifaol&show_icons=true&locale=en&layout=compact&theme=tokyonight"/460/300"></p>
+
+<p align="center"><img width="460" height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=alamin-babu&theme=tokyonight&&fire=FF801F&currStreakNum=FFBE69&currStreakLabel=FFBE69"/460/300"></p>
+
+<br>
+<p align="center">
+Looking forward to collaborate and create solutions that make a difference 🏆🏆🏆. Let’s connect and explore how we can work together. </p>
