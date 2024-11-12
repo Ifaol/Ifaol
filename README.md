@@ -7,7 +7,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Robot-Bold&size=30&color=&center=true&vCenter=true&width=900&height=110&lines=Software+Developer;Frontend+Engineer;Backend+Engineer;AI+Assistant+App+Creator;Technical+Documentation+Specialist;JavaScript+Educator)](https://git.io/typing-svg)
 </div>
 <p align="center">
- <img  height="280rem" alt="GIF" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif" />
+ <img height="280rem" alt="GIF" src="https://media.tenor.com/GfSX-u7VGM4AAAAC/coding.gif" />
 </p>
 
 ## <img src="https://c.tenor.com/NCRHhqkXrJYAAAAi/programmers-go-internet.gif" width="25">  <b>About Me</b>
@@ -39,6 +39,18 @@ I’m Ifaol Mekonnen, a software developer with a passion for solving complex pr
  <a href="mailto:ifaolmekonnen@gmail.com">
  <img border="0" alt="Ifaol's Mail" src="https://img.icons8.com/doodle/38/000000/gmail-new.png"/>
  </a>
+
+ <a href="https://github.com/Ifaol">
+ <img border="0" alt="Ifaol's GitHub" src="https://img.icons8.com/ios-glyphs/40/000000/github.png"/>
+ </a>
+
+ <a href="https://twitter.com/Ifaol">
+ <img border="0" alt="Ifaol's Twitter" src="https://img.icons8.com/ios-filled/40/000000/twitter.png"/>
+ </a>
+
+ <a href="https://stackoverflow.com/users/[Your StackOverflow ID]">
+ <img border="0" alt="Ifaol's StackOverflow" src="https://img.icons8.com/ios-glyphs/40/000000/stackoverflow.png"/>
+ </a>
 </p>
 
 <br>
@@ -66,18 +78,22 @@ I’m Ifaol Mekonnen, a software developer with a passion for solving complex pr
   <img alt="Node.js" src="https://img.shields.io/badge/Node.js-%2343853D.svg?logo=node.js&logoColor=white">
   <img alt="Express" src="https://img.shields.io/badge/Express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB">
   <img alt="NestJS" src="https://img.shields.io/badge/NestJS-%23E0234E.svg?logo=nestjs&logoColor=white">
+  <img alt="Laravel" src="https://img.shields.io/badge/Laravel-%23FF2D20.svg?logo=laravel&logoColor=white">
 </p>
 
 ### 💾 Databases
 <p align="left"> 
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-%23316192.svg?logo=postgresql&logoColor=white">
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-%2300f.svg?logo=mysql&logoColor=white">
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%2347A248.svg?logo=mongodb&logoColor=white">
 </p>
 
 ### ♾️ DevOps & Tools
 <p align="left"> 
   <img alt="Docker" src="https://img.shields.io/badge/Docker-%230db7ed.svg?logo=docker&logoColor=white">
+  <img alt="Jenkins" src="https://img.shields.io/badge/Jenkins-%23D24939.svg?logo=jenkins&logoColor=white">
   <img alt="Git" src="https://img.shields.io/badge/Git-%23F05033.svg?logo=git&logoColor=white">
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23181717.svg?logo=github&logoColor=white">
 </p>
 
 <br>
