@@ -108,3 +108,5 @@ I’m Ifaol Mekonnen, a software developer with a passion for solving complex pr
 <br>
 <p align="center">
 Looking forward to collaborate and create solutions that make a difference 🏆🏆🏆. Let’s connect and explore how we can work together. </p>
+# GitHub Repo Stats
+\n
