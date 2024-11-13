@@ -3,7 +3,7 @@ name: Update README with Private Repo Stats
 on:
   schedule:
     - cron: "0 * * * *" # Runs every hour; adjust as needed
-  workflow_dispatch: # Allows manual triggering of this workflow
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   update-readme:
@@ -13,6 +13,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
       - name: Fetch GitHub Stats from Private Repos
         env:
           IFA_GITHUB_TOKEN_PRIVATE: ${{ secrets.IFA_GITHUB_TOKEN_PRIVATE }}
@@ -20,13 +23,18 @@ jobs:
           curl -H "Authorization: Bearer $IFA_GITHUB_TOKEN_PRIVATE" \
                -H "Accept: application/vnd.github.v3+json" \
                https://api.github.com/user/repos?visibility=private > repos.json
-          
-          # Optional: Use jq to parse and summarize stats
+
+          # Debug output for repos.json
+          echo "Repos JSON content:" && cat repos.json
+
+          # Parse repos.json with jq (make sure it succeeded)
           cat repos.json | jq '[.[] | {name, language, stargazers_count}]' > stats.json
           
-          # Format the stats.json data into markdown content for README
+          # Debug output for stats.json
+          echo "Parsed Stats JSON:" && cat stats.json
+
+          # Format stats.json into markdown for README
           echo "# GitHub Repo Stats" > README-content.md
-          echo "\n" >> README-content.md
           cat stats.json | jq -r '.[] | "* \(.name): \(.language) - 🌟 \(.stargazers_count) stars"' >> README-content.md
 
       - name: Update README
