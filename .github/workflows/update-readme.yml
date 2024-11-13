@@ -13,6 +13,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Clean Up Repository
+        run: |
+          # Reset any local changes
+          git reset --hard
+          # Remove untracked files and directories
+          git clean -fd
+
       - name: Install jq
         run: sudo apt-get install -y jq
 
@@ -27,7 +34,7 @@ jobs:
           # Debug output for repos.json
           echo "Repos JSON content:" && cat repos.json
 
-          # Parse repos.json with jq (make sure it succeeded)
+          # Parse repos.json with jq
           cat repos.json | jq '[.[] | {name, language, stargazers_count}]' > stats.json
           
           # Debug output for stats.json
