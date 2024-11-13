@@ -103,7 +103,7 @@ I’m Ifaol Mekonnen, a software developer with a passion for solving complex pr
 
 <p align="center"><img width="460" height="150" src="https://github-readme-stats.vercel.app/api/top-langs?username=Ifaol&show_icons=true&locale=en&layout=compact&theme=tokyonight"/460/300"></p>
 
-<p align="center"><img width="460" height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=alamin-babu&theme=tokyonight&&fire=FF801F&currStreakNum=FFBE69&currStreakLabel=FFBE69"/460/300"></p>
+<p align="center"><img width="460" height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=Ifaol&theme=tokyonight&&fire=FF801F&currStreakNum=FFBE69&currStreakLabel=FFBE69"/></p>
 
 <br>
 <p align="center">
