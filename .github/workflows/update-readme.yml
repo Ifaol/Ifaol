@@ -13,16 +13,15 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Clean Up Repository
+      - name: Clean Up Repository (Ensure a clean state)
         run: |
-          # Remove all untracked files and directories
-          git clean -fd
-          # Discard local changes
-          git reset --hard
-          # Fetch latest changes from the main branch
-          git fetch origin
-          # Ensure we are in sync with the latest from the remote 'main' branch
+          # Remove any untracked files or directories (including .gitignore)
+          git clean -fdx
+          # Reset to the latest remote state (this will discard any uncommitted changes)
           git reset --hard origin/main
+          
+          # Ensure we are in sync with the latest from the remote 'main' branch
+          git pull origin main
 
       - name: Install jq
         run: sudo apt-get install -y jq
