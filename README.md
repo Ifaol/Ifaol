@@ -110,3 +110,34 @@ I’m Ifaol Mekonnen, a software developer with a passion for solving complex pr
 Looking forward to collaborate and create solutions that make a difference 🏆🏆🏆. Let’s connect and explore how we can work together. </p>
 # GitHub Repo Stats
 \n
+# GitHub Repo Stats
+* approval-module-backend: TypeScript - 🌟 0 stars
+* Authentication-service: JavaScript - 🌟 0 stars
+* Express-Typeorm-PG-Template: JavaScript - 🌟 0 stars
+* HRMS: PHP - 🌟 0 stars
+* IE-Network-Solutions-SD: JavaScript - 🌟 1 stars
+* IE-PMS: Blade - 🌟 0 stars
+* ie-service-desk: JavaScript - 🌟 0 stars
+* ims-backend: TypeScript - 🌟 0 stars
+* ims-front: JavaScript - 🌟 0 stars
+* jenkins: JavaScript - 🌟 0 stars
+* Nest-js-PG-Template: TypeScript - 🌟 0 stars
+* nextjs-reactQuery-antd-tailwind: TypeScript - 🌟 0 stars
+* nextjs-tailwind-antd-ts-template: TypeScript - 🌟 0 stars
+* Notification-and-email-service: TypeScript - 🌟 0 stars
+* okr-and-planning-backend: TypeScript - 🌟 0 stars
+* organizational-development: TypeScript - 🌟 0 stars
+* organizational-structure-and-employee-information: TypeScript - 🌟 0 stars
+* organizational-structure-and-employee-information-frontend: TypeScript - 🌟 0 stars
+* PEP-Design: null - 🌟 0 stars
+* pep-landing: TypeScript - 🌟 0 stars
+* pep-test-cypress: HTML - 🌟 0 stars
+* PM-Frontend: JavaScript - 🌟 1 stars
+* PM-project: JavaScript - 🌟 1 stars
+* PMS1: Blade - 🌟 0 stars
+* recruitment-backend: TypeScript - 🌟 0 stars
+* scm-back: HTML - 🌟 0 stars
+* scm-backend: HTML - 🌟 1 stars
+* SCM-Front: JavaScript - 🌟 0 stars
+* tenant-management-backend: TypeScript - 🌟 0 stars
+* tenant-management-frontend: TypeScript - 🌟 0 stars
