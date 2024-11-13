@@ -1,0 +1,42 @@
+name: Update README with Private Repo Stats
+
+on:
+  schedule:
+    - cron: "0 * * * *" # Runs every hour; adjust as needed
+  workflow_dispatch: # Allows manual triggering of this workflow
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Fetch GitHub Stats from Private Repos
+        env:
+          IFA_GITHUB_TOKEN_PRIVATE: ${{ secrets.IFA_GITHUB_TOKEN_PRIVATE }}
+        run: |
+          curl -H "Authorization: Bearer $IFA_GITHUB_TOKEN_PRIVATE" \
+               -H "Accept: application/vnd.github.v3+json" \
+               https://api.github.com/user/repos?visibility=private > repos.json
+          
+          # Optional: Use jq to parse and summarize stats
+          cat repos.json | jq '[.[] | {name, language, stargazers_count}]' > stats.json
+          
+          # Format the stats.json data into markdown content for README
+          echo "# GitHub Repo Stats" > README-content.md
+          echo "\n" >> README-content.md
+          cat stats.json | jq -r '.[] | "* \(.name): \(.language) - 🌟 \(.stargazers_count) stars"' >> README-content.md
+
+      - name: Update README
+        run: |
+          # Append stats to README file
+          cat README-content.md >> README.md
+          
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          
+          git add README.md
+          git commit -m "Update README with latest private repo stats"
+          git push
